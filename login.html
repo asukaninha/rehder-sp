@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <h1>Mural do Aluno</h1>
+    <div class="box">
+        <fieldset>
+        <legend><b>Entrar</b></legend>
+        <br><br>
+        <input type="text" placeholder="Email" id="email" class="email">
+        <br><br>
+        <input type="password" placeholder="Senha" id="senha" class="senha">
+        <br><br><br>
+        <input type="submit" placeholder="Enviar" id="enviar" class="enviar">
+        <br><br><br>
+        <a href="">clique aqui caso nao tenha cadastro</a>
+        </fieldset>
+    </div>
+</body>
+
+<style>
+    body{
+        background-image: url(rehderlogo2.jpg);
+    }
+    .box{
+        background-color: rgba(110, 110, 110, 0.322);
+        padding: 15px;
+        width: 450px;
+        height: 325px;
+        transform: translate(28%, 30%);
+        border-radius: 15px;
+        position: absolute;
+    }
+    h1{
+        font-size: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #18184b;
+    }
+    fieldset{
+        border: 2px solid #dcdcff;
+        border-radius: 15px;
+    }
+    legend{
+        border: 2px solid #dcdcff;
+        padding: 10px;
+        text-align: center;
+        color: #dcdcff;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 20px;
+        border-radius: 15px;
+    }
+    h2{
+        font-size: 25px;
+        transform: translate(25%, -250%);
+    }
+    .email{
+        padding: 10px;
+        border-radius: 50px;
+        transform: translate(60%, 0%);
+        border: none;
+    }
+    .senha{
+        padding: 10px;
+        border-radius: 50px;
+        transform: translate(60%, 0%);
+        border: none;
+    }
+    .enviar{
+        padding: 15px;
+        border-radius: 50px;
+        transform: translate(255%, 0%);
+        border: none;
+        cursor: pointer;
+        background-color: #94b9ff;
+        color: white;
+    }
+    .enviar:hover{
+        background-color: #18184b;
+    }
+    a{
+        color: #dcdcff;
+        cursor: pointer;
+        text-align: center;
+    }
+    a:hover{
+        color: #18184b;
+    }
+
+@media only screen and (max-width: 800px){
+    
+    body{
+        background-color: #94b9ff;
+        background-image: none;
+    }
+    .box{
+        background-color: rgba(110, 110, 110, 0.322);
+        padding: 15px;
+        width:  225px;
+        height: 350px;
+        transform: translate(10%, 10%);
+        border-radius: 15px;
+        position: absolute;
+    }
+    h1{
+        font-size: 25px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #18184b;
+    }
+    fieldset{
+        border: 2px solid #dcdcff;
+        border-radius: 15px;
+    }
+    legend{
+        border: 2px solid #dcdcff;
+        padding: 10px;
+        text-align: center;
+        color: #dcdcff;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 20px;
+        border-radius: 15px;
+    }
+    .email{
+        padding: 10px;
+        border-radius: 50px;
+        transform: translate(2%, 0%);
+        border: none;
+    }
+    .senha{
+        padding: 10px;
+        border-radius: 50px;
+        transform: translate(2%, 0%);
+        border: none;
+    }
+    .enviar{
+        padding: 15px;
+        border-radius: 50px;
+        transform: translate(100%, 0%);
+        border: none;
+        cursor: pointer;
+        background-color: #94b9ff;
+        color: white;
+    }
+    .enviar:hover{
+        background-color: #18184b;
+    }
+    a{
+        color: #dcdcff;
+        cursor: pointer;
+        text-align: center;
+    }
+    a:hover{
+        color: #18184b;
+    }
+    }
+</style>
+</html>
